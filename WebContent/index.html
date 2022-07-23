@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>stayahead!</title>
+</head>
+<body>
+
+<!-- not related to this project. -->
+<h1>Job Listings</h1>
+<button onClick = "func1()">Software Engineer</button><br><br>
+<button onClick = "func2()">Doctor</button><br><br>
+<button onClick = "func3()">Professor</button><br>
+
+<p id = "demo1"></p>
+<p id = "demo2"></p>
+<p id = "demo3"></p>
+
+<script>
+function func1() {
+	document.getElementById("demo1").innerHTML = "<b>Software Engineer</b> : <br> Those interested in pursuing software engineer careers can expect growing job opportunities. Software engineers design software programs and often participate in the details of their development. In a world that places increasing importance on applications and web development, employment options for software engineers remain robust in a variety of industries. For aspiring software engineers, that can mean diverse career opportunities.";
+}
+
+function func2() {
+	document.getElementById("demo2").innerHTML = "<b>Doctor</b> : <br> A physician (American English), medical practitioner (Commonwealth English), medical doctor, or simply doctor, is a professional who practices medicine, which is concerned with promoting, maintaining, or restoring health through the study, diagnosis, prognosis and treatment of disease, injury, and other physical and mental impairments. Physicians may focus their practice on certain disease categories, types of patients, and methods of treatment—known as specialities—or they may assume responsibility for the provision of continuing and comprehensive medical care to individuals, families, and communities—known as general practice. Medical practice properly requires both a detailed knowledge of the academic disciplines, such as anatomy and physiology, underlying diseases and their treatment—the science of medicine—and also a decent competence in its applied practice—the art or craft of medicine.";
+}
+
+function func3() {
+	document.getElementById("demo3").innerHTML = "<b>Professor</b> : <br> Professors often conduct original research and commonly teach undergraduate, professional, or postgraduate courses in their fields of expertise. In universities with graduate schools, professors may mentor and supervise graduate students conducting research for a thesis or dissertation. In many universities, full professors take on senior managerial roles such as leading departments, research teams and institutes, and filling roles such as president, principal or vice-chancellor. The role of professor may be more public-facing than that of more junior staff, and professors are expected to be national or international leaders in their field of expertise.";
+}
+</script>
+
+</body>
+</html>
